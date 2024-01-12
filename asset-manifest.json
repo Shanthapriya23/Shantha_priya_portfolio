@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/Shantha_priya_portfolio/static/css/main.1aa1b982.css",
+    "main.js": "/Shantha_priya_portfolio/static/js/main.a4dc4837.js",
+    "static/media/Shantha_priya_photo.jpg": "/Shantha_priya_portfolio/static/media/Shantha_priya_photo.d854fe5b3d23cf677ebb.jpg",
+    "static/media/Hello.gif": "/Shantha_priya_portfolio/static/media/Hello.d93720933c608f6178fb.gif",
+    "static/media/Shanthapriya_resume.pdf": "/Shantha_priya_portfolio/static/media/Shanthapriya_resume.d7e4bebd9ce554b990ec.pdf",
+    "static/media/illustration.svg": "/Shantha_priya_portfolio/static/media/illustration.cf4b7a67f23b684549c4f797c62b527a.svg",
+    "static/media/mysql.svg": "/Shantha_priya_portfolio/static/media/mysql.c0571d009f945f2381476ad07ceb4d99.svg",
+    "static/media/node-icon.svg": "/Shantha_priya_portfolio/static/media/node-icon.cc3d45a160579a330a5c17cc2c8f1407.svg",
+    "static/media/typescript-icon.svg": "/Shantha_priya_portfolio/static/media/typescript-icon.f3bc0fd998dea6b1266965436af97a49.svg",
+    "static/media/bootstrap-icon.svg": "/Shantha_priya_portfolio/static/media/bootstrap-icon.09b773cc0f17dc078cc9864e5e8006ba.svg",
+    "static/media/react-icon.svg": "/Shantha_priya_portfolio/static/media/react-icon.a010f287ea79ad0673b610a223faa951.svg",
+    "static/media/telegram.svg": "/Shantha_priya_portfolio/static/media/telegram.45bf2371ee6528cc27d66c08f8e43356.svg",
+    "static/media/instagram.svg": "/Shantha_priya_portfolio/static/media/instagram.e9d6b5424508db6397a027a4e0fe0dd0.svg",
+    "static/media/cpp.svg": "/Shantha_priya_portfolio/static/media/cpp.f00d9334f1e6c0da4960a74ebe7769cb.svg",
+    "static/media/java.svg": "/Shantha_priya_portfolio/static/media/java.5386b56c3206b6bd70b1053534d73dc3.svg",
+    "static/media/phone-icon.svg": "/Shantha_priya_portfolio/static/media/phone-icon.fc7195139d684fa2f6bb03b8b9816095.svg",
+    "static/media/c.svg": "/Shantha_priya_portfolio/static/media/c.6295470a17567c0599b55873f66ef96a.svg",
+    "static/media/nextjs.svg": "/Shantha_priya_portfolio/static/media/nextjs.638b6634b382c33dc51d1ca4eb5094d4.svg",
+    "static/media/github.svg": "/Shantha_priya_portfolio/static/media/github.d344c0fc70ddfb6de253ddc40adcb086.svg",
+    "static/media/email-icon.svg": "/Shantha_priya_portfolio/static/media/email-icon.a5dd245e834641e729e77e40309039c4.svg",
+    "static/media/oracle.svg": "/Shantha_priya_portfolio/static/media/oracle.809a22dcaa428ce8568ab9d1959e55ee.svg",
+    "static/media/python.svg": "/Shantha_priya_portfolio/static/media/python.026a62687ef705a39cfc755d7457859c.svg",
+    "index.html": "/Shantha_priya_portfolio/index.html",
+    "static/media/html-icon.svg": "/Shantha_priya_portfolio/static/media/html-icon.185baee7db74b83bf22eec6a6def7644.svg",
+    "static/media/css-icon.svg": "/Shantha_priya_portfolio/static/media/css-icon.212d777ae2db63edb235490d487dc292.svg",
+    "static/media/wordpress.svg": "/Shantha_priya_portfolio/static/media/wordpress.19efd7af1fafc38a53600387f0821d3d.svg",
+    "static/media/mongodb.svg": "/Shantha_priya_portfolio/static/media/mongodb.3beac5ba18197ccbdea6e2f53e18edcf.svg",
+    "static/media/expressjs.svg": "/Shantha_priya_portfolio/static/media/expressjs.13e4b3884f318c648bfe0207aa64c8dc.svg",
+    "static/media/git.svg": "/Shantha_priya_portfolio/static/media/git.43d387b77657117c0e407816cbf72476.svg",
+    "static/media/linkedin.svg": "/Shantha_priya_portfolio/static/media/linkedin.4f00d78f67f451cf01173f7418aa186f.svg",
+    "static/media/js-icon.svg": "/Shantha_priya_portfolio/static/media/js-icon.2d25723e91c8a9e057ae447ae6a73ecb.svg",
+    "static/media/figma.svg": "/Shantha_priya_portfolio/static/media/figma.44ca2c329ade686d78f62ad73790c621.svg",
+    "main.1aa1b982.css.map": "/Shantha_priya_portfolio/static/css/main.1aa1b982.css.map",
+    "main.a4dc4837.js.map": "/Shantha_priya_portfolio/static/js/main.a4dc4837.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1aa1b982.css",
+    "static/js/main.a4dc4837.js"
+  ]
+}
