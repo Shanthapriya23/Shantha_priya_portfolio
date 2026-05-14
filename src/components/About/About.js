@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container } from "./styles";
-import Mugundh from "../../assets/Shantha_priya_photo.jpg";
+import shantha_priya from "../../assets/shantha_priya_photo.jpg.jpeg";
 import wordpress from "../../assets/wordpress.svg";
 import cIcon from "../../assets/c.svg";
 import cppIcon from "../../assets/cpp.svg";
@@ -28,9 +28,9 @@ export function About() {
             React.createElement(ScrollAnimation, { animateIn: "fadeInLeft" },
                 React.createElement("h2", null, "About me")),
             React.createElement(ScrollAnimation, { animateIn: "fadeInLeft", delay: 0.1 * 1000 },
-                React.createElement("p", null, "Hi there! I'm Shantha Priya Manikandan, a highly motivated Information Technology Undergraduate with a passion for Full Stack Web Development, programming, Data Structures, Algorithms and Problem-solving.")),
+                React.createElement("p", null, "Hi there! I'm Shantha Priya Manikandan, A Passionate software developer and a technology enthusiast who has interest in Problem solving (DSA), System design, Fullstack and Web development and an active learner who is interested in learning new technologies")),
             React.createElement(ScrollAnimation, { animateIn: "fadeInLeft", delay: 0.2 * 1000, style: { marginTop: "2rem", marginBottom: "2rem" } },
-                React.createElement("p", null, "Seeking opportunities in the tech industry to contribute my skills and drive innovation. ")),
+                React.createElement("p", null, "I'm an Associate Application developer @SAP Labs India")),
             React.createElement(ScrollAnimation, { animateIn: "fadeInLeft", delay: 0.3 * 1000 },
                 React.createElement("p", null, "Let's connect and explore the possibilities together! \uD83D\uDE80")),
             React.createElement(ScrollAnimation, { animateIn: "fadeInLeft", delay: 0.4 * 1000 },
@@ -98,5 +98,5 @@ export function About() {
                         React.createElement("img", { src: wordpress, alt: "Wordpress" }))))),
         React.createElement("div", { className: "about-image" },
             React.createElement(ScrollAnimation, { animateIn: "fadeInRight", delay: 0.20 * 1000 },
-                React.createElement("img", { src: Mugundh, alt: "Mugundh" })))));
+                React.createElement("img", { src: shantha_priya, alt: "Shantha Priya" })))));
 }

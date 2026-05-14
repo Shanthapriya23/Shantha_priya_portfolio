@@ -3,7 +3,7 @@ import { Container } from './styles';
 import { BrowserRouter as Router } from 'react-router-dom';
 import { NavHashLink, HashLink } from 'react-router-hash-link';
 import { useState } from 'react';
-import CV from '../../assets/Shanthapriya_resume.pdf';
+import CV from '../../assets/shantha_resume.pdf';
 export function Header() {
     var _a = useState(false), isActive = _a[0], setActive = _a[1];
     function toggleTheme() {
