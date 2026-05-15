@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/Shantha_priya_portfolio/static/css/main.1aa1b982.css",
-    "main.js": "/Shantha_priya_portfolio/static/js/main.44dfbcc4.js",
+    "main.js": "/Shantha_priya_portfolio/static/js/main.e8ebbff2.js",
     "static/media/graduation.jpg.jpeg": "/Shantha_priya_portfolio/static/media/graduation.jpg.65945c386ef0cfd24439.jpeg",
     "static/media/shantha_priya_photo.jpg.jpeg": "/Shantha_priya_portfolio/static/media/shantha_priya_photo.jpg.30c4ee3604fe756d2367.jpeg",
     "static/media/Hello.gif": "/Shantha_priya_portfolio/static/media/Hello.d93720933c608f6178fb.gif",
-    "static/media/shantha_resume.pdf": "/Shantha_priya_portfolio/static/media/shantha_resume.1a370d34e5f1a12ba93f.pdf",
+    "static/media/shantha_resume.pdf": "/Shantha_priya_portfolio/static/media/shantha_resume.32a3824bdb84d62ae184.pdf",
     "static/media/illustration.svg": "/Shantha_priya_portfolio/static/media/illustration.cf4b7a67f23b684549c4f797c62b527a.svg",
     "static/media/mysql.svg": "/Shantha_priya_portfolio/static/media/mysql.c0571d009f945f2381476ad07ceb4d99.svg",
     "static/media/node-icon.svg": "/Shantha_priya_portfolio/static/media/node-icon.3dc364b8e9beb3561620274aea4f0844.svg",
@@ -33,10 +33,10 @@
     "static/media/js-icon.svg": "/Shantha_priya_portfolio/static/media/js-icon.ffcf56dc5498f7bbbec802191c740e5f.svg",
     "static/media/figma.svg": "/Shantha_priya_portfolio/static/media/figma.44ca2c329ade686d78f62ad73790c621.svg",
     "main.1aa1b982.css.map": "/Shantha_priya_portfolio/static/css/main.1aa1b982.css.map",
-    "main.44dfbcc4.js.map": "/Shantha_priya_portfolio/static/js/main.44dfbcc4.js.map"
+    "main.e8ebbff2.js.map": "/Shantha_priya_portfolio/static/js/main.e8ebbff2.js.map"
   },
   "entrypoints": [
     "static/css/main.1aa1b982.css",
-    "static/js/main.44dfbcc4.js"
+    "static/js/main.e8ebbff2.js"
   ]
 }
