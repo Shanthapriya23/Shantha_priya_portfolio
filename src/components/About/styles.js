@@ -1,8 +1,234 @@
 import styled from "styled-components";
-var __makeTemplateObject = (this && this.__makeTemplateObject) || function (cooked, raw) {
-    if (Object.defineProperty) { Object.defineProperty(cooked, "raw", { value: raw }); } else { cooked.raw = raw; }
-    return cooked;
-};
 
-export var Container = styled.section(templateObject_1 || (templateObject_1 = __makeTemplateObject(["\n  margin-top: 12rem;\n  display: grid;\n  grid-template-columns: 1fr 1fr;\n  gap: 2rem;\n\n  .hard-skills{\n    margin-top: 1.6rem;\n    display: flex;\n    align-items: center;\n    flex-wrap: wrap;\n    gap: 1.8rem;\n  }\n  .hability{\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n\n    img{\n      width: 3.4rem;\n    }\n  }\n\n  h2{\n    display: inline-block;\n    margin-bottom: 2rem;\n    // border-bottom: 0.2rem solid var(--blue);\n    font-size :3rem;\n    margin-top: 0rem;\n    color: var(--blue);\n  }\n\n  h3{\n    margin-top: 2rem;\n    color: var(--blue);\n  }\n\n  p{\n    font-size: 1.8rem;\n    letter-spacing: 0.1rem;\n    font-weight: 500;\n  }\n  \n  \n\n  .about-image{\n    text-align: center;\n   img{\n     margin-top: 2rem;\n     width: 75%;\n     filter: grayscale(0);\n     transition: filter 0.5s;\n     &:hover{\n       filter: grayscale(0);\n     }\n   }\n  }\n\n  @media only screen and (max-width: 480px) {\n    .about-image {\n      max-width: 100%;\n      margin-top: 4rem;\n      img{\n        margin-top: 2rem;\n        width: 100%;\n        filter: grayscale(0);\n        transition: filter 0.5s;\n        &:hover{\n          filter: grayscale(0);\n        }\n    }\n  }\n\n  @media (max-width: 960px){\n    display: block;\n    text-align: center;\n    \n    .hard-skills{\n      justify-content: center;\n    }\n    .about-image{\n      display: flex;\n      max-width: 100%;\n      img{\n        margin-top: 2rem;\n        width: 100%;\n        filter: grayscale(0);\n        transition: filter 0.5s;\n        &:hover{\n          filter: grayscale(0);\n        }\n    }\n    \n    \n  }\n\n"], ["\n  margin-top: 12rem;\n  display: grid;\n  grid-template-columns: 1fr 1fr;\n  gap: 2rem;\n\n  .hard-skills{\n    margin-top: 1.6rem;\n    display: flex;\n    align-items: center;\n    flex-wrap: wrap;\n    gap: 1.8rem;\n  }\n  .hability{\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n\n    img{\n      width: 3.4rem;\n    }\n  }\n\n  h2{\n    display: inline-block;\n    margin-bottom: 2rem;\n    // border-bottom: 0.2rem solid var(--blue);\n    font-size :3rem;\n    margin-top: 0rem;\n    color: var(--blue);\n  }\n\n  h3{\n    margin-top: 2rem;\n    color: var(--blue);\n  }\n\n  p{\n    font-size: 1.8rem;\n    letter-spacing: 0.1rem;\n    font-weight: 500;\n  }\n  \n  \n\n  .about-image{\n    text-align: center;\n   img{\n     margin-top: 2rem;\n     width: 75%;\n     filter: grayscale(0);\n     transition: filter 0.5s;\n     &:hover{\n       filter: grayscale(0);\n     }\n   }\n  }\n\n  @media only screen and (max-width: 480px) {\n    .about-image {\n      max-width: 100%;\n      margin-top: 4rem;\n      img{\n        margin-top: 2rem;\n        width: 100%;\n        filter: grayscale(0);\n        transition: filter 0.5s;\n        &:hover{\n          filter: grayscale(0);\n        }\n    }\n  }\n\n  @media (max-width: 960px){\n    display: block;\n    text-align: center;\n    \n    .hard-skills{\n      justify-content: center;\n    }\n    .about-image{\n      display: flex;\n      max-width: 100%;\n      img{\n        margin-top: 2rem;\n        width: 100%;\n        filter: grayscale(0);\n        transition: filter 0.5s;\n        &:hover{\n          filter: grayscale(0);\n        }\n    }\n    \n    \n  }\n\n"])));
-var templateObject_1;
+export var Container = styled.section`
+  margin-top: 12rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+
+  .section-anchor{
+    scroll-margin-top: 8rem;
+    padding-top: 2rem;
+  }
+
+  .hard-skills{
+    margin-top: 1.6rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.8rem;
+  }
+
+  .hard-skills.single-line{
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 1.4rem;
+  }
+
+  .hability{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    img{
+      width: 3.4rem;
+    }
+  }
+
+  h2{
+    display: inline-block;
+    margin-bottom: 2rem;
+    font-size: 3rem;
+    margin-top: 0rem;
+    color: var(--blue);
+  }
+
+  h3{
+    margin-top: 2rem;
+    color: var(--blue);
+  }
+
+  h4{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    color: var(--blue);
+    font-size: 1.6rem;
+
+    .date{
+      font-weight: 400;
+      font-size: 1.3rem;
+      color: var(--green);
+      margin-left: 0.8rem;
+    }
+  }
+
+  p{
+    font-size: 1.8rem;
+    letter-spacing: 0.1rem;
+    font-weight: 500;
+  }
+
+  .role{
+    font-size: 1.4rem;
+    font-style: italic;
+    color: var(--green);
+    margin-bottom: 0.8rem;
+    font-weight: 400;
+  }
+
+  .timeline{
+    margin-top: 1.5rem;
+    position: relative;
+    padding-left: 2.5rem;
+
+    &::before{
+      content: '';
+      position: absolute;
+      left: 0.8rem;
+      top: 0;
+      bottom: 0;
+      width: 2px;
+      background: var(--blue);
+    }
+  }
+
+  .timeline-item{
+    position: relative;
+    margin-bottom: 2.5rem;
+    padding-left: 1.5rem;
+  }
+
+  .timeline-dot{
+    position: absolute;
+    left: -2.1rem;
+    top: 0.8rem;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: var(--blue);
+    border: 2px solid var(--green);
+    z-index: 1;
+  }
+
+  .timeline-content{
+    ul{
+      list-style: disc;
+      padding-left: 2rem;
+      margin-top: 0.8rem;
+
+      li{
+        font-size: 1.4rem;
+        letter-spacing: 0.05rem;
+        margin-bottom: 0.6rem;
+        line-height: 1.6;
+      }
+    }
+  }
+
+  .tech-stack-inline{
+    margin-top: 1rem;
+    font-size: 1.5rem !important;
+    font-weight: 400 !important;
+    line-height: 1.8;
+    color: var(--green);
+  }
+
+  .certificates-list{
+    margin-top: 1rem;
+
+    ul{
+      list-style: disc;
+      padding-left: 2rem;
+
+      li{
+        font-size: 1.4rem;
+        margin-bottom: 0.8rem;
+        letter-spacing: 0.05rem;
+        line-height: 1.6;
+
+        a{
+          color: var(--blue);
+          text-decoration: underline;
+          transition: color 0.3s;
+
+          &:hover{
+            color: var(--green);
+          }
+        }
+      }
+    }
+  }
+
+  .about-image{
+    text-align: center;
+   img{
+     margin-top: 2rem;
+     width: 75%;
+     filter: grayscale(0);
+     transition: filter 0.5s;
+     &:hover{
+       filter: grayscale(0);
+     }
+   }
+  }
+
+  @media only screen and (max-width: 480px) {
+    .about-image {
+      max-width: 100%;
+      margin-top: 4rem;
+      img{
+        margin-top: 2rem;
+        width: 100%;
+        filter: grayscale(0);
+        transition: filter 0.5s;
+        &:hover{
+          filter: grayscale(0);
+        }
+      }
+    }
+
+    .hard-skills.single-line{
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+
+  @media (max-width: 960px){
+    display: block;
+    text-align: center;
+    
+    .hard-skills{
+      justify-content: center;
+    }
+
+    .hard-skills.single-line{
+      flex-wrap: wrap;
+    }
+
+    .about-image{
+      display: flex;
+      max-width: 100%;
+      img{
+        margin-top: 2rem;
+        width: 100%;
+        filter: grayscale(0);
+        transition: filter 0.5s;
+        &:hover{
+          filter: grayscale(0);
+        }
+      }
+    }
+
+    .timeline{
+      text-align: left;
+    }
+
+    .tech-stack-inline{
+      text-align: center;
+    }
+
+    .certificates-list{
+      text-align: left;
+    }
+  }
+`;

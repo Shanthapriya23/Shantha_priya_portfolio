@@ -1,8 +1,92 @@
 import styled from "styled-components";
-var __makeTemplateObject = (this && this.__makeTemplateObject) || function (cooked, raw) {
-    if (Object.defineProperty) { Object.defineProperty(cooked, "raw", { value: raw }); } else { cooked.raw = raw; }
-    return cooked;
-};
 
-export var Container = styled.section(templateObject_1 || (templateObject_1 = __makeTemplateObject(["\n  padding-top: 15%;\n  display: flex;\n  justify-content: space-between;\n  gap: 8rem;\n  background: rgba(0,0,0,0);\n  .hero-text{\n    & > p{\n      font-size: 1.8rem;\n    }\n    h1{\n      font-size: 7rem;\n    }\n\n    h3{\n      color:var(--blue);\n      margin: 1rem 0;\n    }\n\n    \n    p.small-resume {\n      margin-bottom: 5rem;\n    }\n  }\n// New added\n  .social-media{\n    display: inline-flex;\n    align-items: center;\n    justify-content: space-between;\n    gap: 1rem;\n    padding-top:5rem;\n    padding-left:1rem;\n\n    img,span{\n      font-size: 3rem;\n      width: 3.5rem;\n    }\n  }\n\n\n  .button{\n    margin-top: 5rem;\n    padding: 1.4rem 6rem;\n    background-color: var(--blue)\n  }\n\n  .hero-image{\n    img{\n      max-width: 500px;\n    }\n  }\n\n\n  @media(max-width: 960px){\n    display: block;\n    margin-top: 15%;\n    .hero-text{\n\n      h1{\n        font-size: 5rem;\n      }\n    }\n    \n    .hero-image{\n      display: none;\n    }\n  }\n\n  @media(max-width: 600px){\n    margin-top: 35%;\n  }\n  @media(max-width: 480px){\n    margin-top: 45%;\n  }\n"], ["\n  padding-top: 15%;\n  display: flex;\n  justify-content: space-between;\n  gap: 8rem;\n  background: rgba(0,0,0,0);\n  .hero-text{\n    & > p{\n      font-size: 1.8rem;\n    }\n    h1{\n      font-size: 7rem;\n    }\n\n    h3{\n      color:var(--blue);\n      margin: 1rem 0;\n    }\n\n    \n    p.small-resume {\n      margin-bottom: 5rem;\n    }\n  }\n// New added\n  .social-media{\n    display: inline-flex;\n    align-items: center;\n    justify-content: space-between;\n    gap: 1rem;\n    padding-top:5rem;\n    padding-left:1rem;\n\n    img,span{\n      font-size: 3rem;\n      width: 3.5rem;\n    }\n  }\n\n\n  .button{\n    margin-top: 5rem;\n    padding: 1.4rem 6rem;\n    background-color: var(--blue)\n  }\n\n  .hero-image{\n    img{\n      max-width: 500px;\n    }\n  }\n\n\n  @media(max-width: 960px){\n    display: block;\n    margin-top: 15%;\n    .hero-text{\n\n      h1{\n        font-size: 5rem;\n      }\n    }\n    \n    .hero-image{\n      display: none;\n    }\n  }\n\n  @media(max-width: 600px){\n    margin-top: 35%;\n  }\n  @media(max-width: 480px){\n    margin-top: 45%;\n  }\n"])));
-var templateObject_1;
+export var Container = styled.section`
+  padding-top: 15%;
+  display: flex;
+  justify-content: space-between;
+  gap: 8rem;
+  background: rgba(0,0,0,0);
+  .hero-text{
+    & > p{
+      font-size: 1.8rem;
+    }
+    h1{
+      font-size: 7rem;
+    }
+
+    h3{
+      color:var(--blue);
+      margin: 1rem 0;
+    }
+
+    
+    p.small-resume {
+      margin-bottom: 5rem;
+    }
+  }
+
+  .hard-skills{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.2rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+
+    img{
+      width: 3.4rem;
+      height: 3.4rem;
+      object-fit: contain;
+    }
+  }
+
+  .social-media{
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding-top:5rem;
+    padding-left:1rem;
+
+    img,span{
+      font-size: 3rem;
+      width: 3.5rem;
+    }
+  }
+
+
+  .button{
+    margin-top: 5rem;
+    padding: 1.4rem 6rem;
+    background-color: var(--blue)
+  }
+
+  .hero-image{
+    img{
+      max-width: 500px;
+    }
+  }
+
+
+  @media(max-width: 960px){
+    display: block;
+    margin-top: 15%;
+    .hero-text{
+
+      h1{
+        font-size: 5rem;
+      }
+    }
+    
+    .hero-image{
+      display: none;
+    }
+  }
+
+  @media(max-width: 600px){
+    margin-top: 35%;
+  }
+  @media(max-width: 480px){
+    margin-top: 45%;
+  }
+`;
